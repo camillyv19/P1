@@ -1,0 +1,10 @@
+valores = [23, 32, 64, 18, 9, 51, 67, 90]
+print("Valores dado {}".format(valores))
+crescente = sorted(valores)
+print("Valores em ordem crescente {}".format(crescente))
+decrescente = sorted(valores, reverse=True)
+print("Valores em ordem decrescente {}".format(decrescente))
+soma = sum(valores)
+print("A soma de todos os valores é de {}".format(soma))
+print("Tamanho da lista corresponde a {} números".format(len(valores)))
+print("O seu último valor corresponde ao número {}".format(valores.pop()))
